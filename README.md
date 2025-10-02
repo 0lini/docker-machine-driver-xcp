@@ -1,5 +1,5 @@
 # docker-machine-driver-xcp
-This is the XCP-ng driver plugin for Docker Machine. It allows the
+This is the XCP-ng driver plugin for Rancher Machine (a fork of Docker Machine). It allows the
 orchestration of machines on XCP-ng (all versions) and probably compatible with Citrix XenServer 6.5SP1 or later.
 
 This work is derived from https://github.com/xenserver/docker-machine-driver-xenserver.
@@ -15,7 +15,7 @@ The installation steps are:
 5. Move the driver binary to your PATH, so it can be found by docker-machine.
 
 # Installation from source
-Following the installation of Golang and Docker Machine, you can install the
+Following the installation of Golang and Rancher Machine, you can install the
 docker-machine-xcp-driver:
 ```bash
 go get github.com/interlegis/docker-machine-driver-xcp
